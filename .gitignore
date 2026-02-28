@@ -1,0 +1,5 @@
+.vscode/ 
+__MACOSX/ 
+*.zip 
+*.pdf 
+*.xlsx 
