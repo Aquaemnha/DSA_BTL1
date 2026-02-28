@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug All Tests",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/main_debug",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "VOTIEN_DSA2_HK251"
+        },
+        {
+            "name": "Debug: 1 Cases",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/main_debug",
+            "args": [
+                "--test-case=BotkifyCycleDoubleLinkedList_002"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "VOTIEN_DSA2_HK251"
+        }
+    ]
+}

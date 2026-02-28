@@ -1,0 +1,26 @@
+{
+    "name": "DSA1-HK252-TASK3",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "ms-vscode.cpptools-themes",
+        "aaron-bond.better-comments",
+        "vscode-icons-team.vscode-icons"
+    ],
+    "workspaceFolder": "/workspaces/template",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/template,type=bind",
+    "runArgs": [
+        "--name=DSA1-HK252-TASK3",
+        "--cap-add=SYS_PTRACE",
+        "--security-opt",
+        "seccomp=unconfined"
+    ],
+    "postStartCommand": "bash .devcontainer/banner.sh",
+    "remoteUser": "root"
+}
