@@ -1,4 +1,4 @@
-# Data Structures & Algorithms Implementation (C++)
+# Data Structures & Algorithms – BTL1 (C++)
 
 ## Overview
 This project demonstrates implementation of fundamental data structures and algorithmic techniques using modern C++.
@@ -22,5 +22,5 @@ This project demonstrates implementation of fundamental data structures and algo
 
 ### Windows (MinGW / g++)
 ```bash
-g++ src/*.cpp -Iinclude -o main.exe
+g++ src/main.cpp src/Playlist.cpp -Iinclude -o app
 main.exe
