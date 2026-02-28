@@ -23,4 +23,15 @@ This project demonstrates implementation of fundamental data structures and algo
 ### Windows (MinGW / g++)
 ```bash
 g++ src/main.cpp src/Playlist.cpp -Iinclude -o app
-main.exe
+app.exe
+```
+
+---
+
+## Author
+**Nguyễn Anh Khoa**  
+Email: khoa.nguyenanh2812@hcmut.eu.vn  
+
+---
+
+> Academic project – do not reuse without permission.
